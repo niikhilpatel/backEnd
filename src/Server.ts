@@ -8,6 +8,10 @@ export default class Server {
     private serverResponse: http.ServerResponse
     private dataService: DataService;
 
+    /**
+     * This is the constructor
+     */
+
     constructor() {
         this.dataService = new DataService();
     }
